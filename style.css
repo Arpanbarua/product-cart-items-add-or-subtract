@@ -1,0 +1,66 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.container 
+{
+    width: 80%;
+    margin: auto;
+    
+}
+
+ul, ol 
+{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.row 
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+#counter input
+{
+    /* padding: 6px 0;
+    margin: 0 5px ; */
+    border: none;
+    text-align: center;
+    padding: 10px;
+    line-height: 0;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#counter input:focus 
+{
+    outline: none;
+}
+
+#counter 
+{
+    background: #777;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#counter button 
+{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    cursor: pointer;
+    padding: 10px;
+}
